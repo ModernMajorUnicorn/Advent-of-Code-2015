@@ -4,18 +4,15 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668e8456-ce58-47b0-b9a6-c22d98d09b66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/day-4-the-ideal-stocking-stuffer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-5-doesnt-he-have-intern-elves-for-this.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+    <list default="true" id="668e8456-ce58-47b0-b9a6-c22d98d09b66" name="Changes" comment="Solve Day 4 and Day 5">
+      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/day-6-probably-a-fire-hazard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +74,21 @@
       <option name="presentableId" value="Default" />
       <updated>1645544198344</updated>
     </task>
+    <task id="LOCAL-00001" summary="Solve Day 4 and Day 5">
+      <created>1645630246886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645630246886</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Solve Day 4 and Day 5">
+      <created>1645630266531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645630266531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Solve Day 4 and Day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Day 4 and Day 5" />
   </component>
 </project>

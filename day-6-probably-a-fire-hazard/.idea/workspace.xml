@@ -4,13 +4,14 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb83f04f-1cf6-40a9-a434-005256994d6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/day-6-probably-a-fire-hazard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/input.txt" afterDir="false" />
+    <list default="true" id="68adfd92-8a23-4e9b-9cf4-f71b63d0015e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-6-probably-a-fire-hazard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-4-the-ideal-stocking-stuffer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-5-doesnt-he-have-intern-elves-for-this/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-5-doesnt-he-have-intern-elves-for-this/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +23,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="874syz2s" />
+    <option name="directoryName" value="0ruipp68" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25SunzIQJRFi5ZApKbuYSuhdkXq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="25WBV4BFzcGw0FuC8o5um9tJxMT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -41,7 +45,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package day-4-the-ideal-stocking-stuffer --bin day-4-the-ideal-stocking-stuffer" />
+      <option name="command" value="run --package day-6-probably-a-fire-hazard --bin day-6-probably-a-fire-hazard" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -59,16 +63,15 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cb83f04f-1cf6-40a9-a434-005256994d6b" name="Changes" comment="" />
-      <created>1645532980506</created>
+      <changelist id="68adfd92-8a23-4e9b-9cf4-f71b63d0015e" name="Changes" comment="" />
+      <created>1645632983586</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645532980506</updated>
+      <updated>1645632983586</updated>
     </task>
     <servers />
   </component>
@@ -82,5 +85,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
