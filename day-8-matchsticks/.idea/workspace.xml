@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2fd945-ca78-4d8e-8099-93397d72f1bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-7-some-assembly-required/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-7-some-assembly-required/src/logical.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-7-some-assembly-required/src/parse.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-7-some-assembly-required/src/signal_source.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-7-some-assembly-required/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-8-matchsticks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-6-probably-a-fire-hazard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-7-some-assembly-required/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../day-7-some-assembly-required/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/day-9-all-in-a-single-night.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-2-i-was-told-there-would-be-no-math" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
@@ -75,6 +72,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
