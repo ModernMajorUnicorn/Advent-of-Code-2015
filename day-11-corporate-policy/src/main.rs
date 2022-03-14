@@ -56,8 +56,8 @@ fn meets_rule_2(password: &Vec<char>) -> bool {
 fn meets_rule_3(password: &Vec<char>) -> bool {
     let pairs = password.iter().tuple_windows().map(|(a, b): (&char, &char)| (*a, *b)).collect_vec();
 
-    match pairs.iter().find(|(a, b)| a == b) {
-        _None => return false,
+    let first_pair = match pairs.iter().find(|(a, b)| a == b) {
+        None => return false,
         Some(x) => *x
     };
 
