@@ -7,63 +7,44 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b2fd945-ca78-4d8e-8099-93397d72f1bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-10-elves-look-elves-say/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-10-elves-look-elves-say/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-10-elves-look-elves-say/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-10-elves-look-elves-say/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-10-elves-look-elves-say/day-10-elves-look-elves-say.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-11-corporate-policy/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-11-corporate-policy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-11-corporate-policy/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-11-corporate-policy/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4ad1bc7a-b6ef-4313-ad98-fc34b8bf8fdc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-10-elves-look-elves-say.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-11-corporate-policy/day-11-corporate-policy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-12-js-abacus-framework-io/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-12-js-abacus-framework-io/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-12-js-abacus-framework-io/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-12-js-abacus-framework-io/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-12-js-abacus-framework-io/day-12-js-abacus-framework-io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Rust File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="wl2bb8pp" />
+    <option name="directoryName" value="8n5cfw3g" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25bZskSEXkJH2gfKSotDtwiEALK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="26NSctuJ4lBeHzLKWrbh4jPmeIV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-2-i-was-told-there-would-be-no-math" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="language.rust.cargo.check" />
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package day-8-matchsticks --bin day-8-matchsticks" />
+      <option name="command" value="run --package day-10-elves-look-elves-say --bin day-10-elves-look-elves-say" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -80,17 +61,17 @@
     </configuration>
   </component>
   <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b2fd945-ca78-4d8e-8099-93397d72f1bd" name="Changes" comment="" />
-      <created>1645797955013</created>
+      <changelist id="4ad1bc7a-b6ef-4313-ad98-fc34b8bf8fdc" name="Changes" comment="" />
+      <created>1647262634540</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645797955013</updated>
+      <updated>1647262634540</updated>
     </task>
     <servers />
   </component>
@@ -105,7 +86,8 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
