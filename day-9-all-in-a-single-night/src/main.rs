@@ -4,23 +4,27 @@ use std::io;
 use std::io::BufRead;
 use itertools::Itertools;
 
-fn main() {
-    run_test();
+struct Map {
+    locations: HashSet<String>,
+    distances: HashMap<(String, String), i64>
 }
 
-fn run_test() {
-    //let input = parse_input("test.txt");
+fn main() {
+    run("test.txt", "Test solution");
+    run("input.txt", "Puzzle solution");
+}
 
-    //let test_solution = solve_part_1(&input);
-
-    //println!("Test solution: {}", test_solution);
+fn run(input_file: &str, output_prefix: &str) {
+    let input = parse_input(input_file);
+    let solution = solve(input);
+    println!("{}: {:?}", output_prefix, solution);
 }
 
 fn parse_input(path: &str) -> Map {
     let mut locations: HashSet<String> = HashSet::new();
     let mut distances: HashMap<(String, String), i64> = HashMap::new();
 
-    let mut lines = io::BufReader::new(File::open(path).unwrap())
+    let lines = io::BufReader::new(File::open(path).unwrap())
         .lines()
         .map(|line| line.unwrap());
 
@@ -46,7 +50,20 @@ fn parse_line(line: String) -> (String, String, i64) {
     (location_a.to_string(), location_b.to_string(), distance.parse().unwrap())
 }
 
-struct Map {
-    locations: HashSet<String>,
-    distances: HashMap<(String, String), i64>
+fn solve(input: Map) -> (i64, i64) {
+    let distances = input.locations
+        .iter()
+        .permutations(input.locations.len())
+        .map(|path| calculate_distance(path, &input.distances))
+        .collect_vec();
+
+    (*distances.iter().min().unwrap(), *distances.iter().max().unwrap())
+}
+
+fn calculate_distance(path: Vec<&String>, distances: &HashMap<(String, String), i64>) -> i64 {
+    path
+        .iter()
+        .tuple_windows()
+        .map(|(source, destination)| distances.get(&(source.to_string(), destination.to_string())).unwrap())
+        .sum()
 }

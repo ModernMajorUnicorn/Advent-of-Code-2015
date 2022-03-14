@@ -8,12 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2fd945-ca78-4d8e-8099-93397d72f1bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/day-9-all-in-a-single-night.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-9-all-in-a-single-night/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
