@@ -15,6 +15,7 @@ struct ReindeerState {
     running_time_left_in_seconds: i64,
     resting_time_left_in_seconds: i64,
     reindeer_information: Reindeer,
+    points: i64,
 }
 
 impl ReindeerState {
@@ -23,7 +24,8 @@ impl ReindeerState {
             distance_in_km: 0,
             running_time_left_in_seconds: reindeer_information.running_time_in_seconds,
             resting_time_left_in_seconds: reindeer_information.resting_time_in_seconds,
-            reindeer_information
+            reindeer_information,
+            points: 0,
         }
     }
 
@@ -39,6 +41,10 @@ impl ReindeerState {
             self.tick();
         }
     }
+
+    fn score(&mut self) {
+        self.points += 1;
+    }
 }
 
 fn main() {
@@ -48,14 +54,14 @@ fn main() {
 
 fn run_test() {
     let puzzle_input = load_puzzle_input("test_input.txt");
-    let result = run(&puzzle_input, 1000);
-    println!("Best distance for test: {}", result);
+    let (best_distance_in_km, best_points) = run(&puzzle_input, 1000);
+    println!("Best distance for test: {}. Best points for test: {}", best_distance_in_km, best_points);
 }
 
 fn run_puzzle() {
     let puzzle_input = load_puzzle_input("input.txt");
-    let result = run(&puzzle_input, 2503);
-    println!("Best distance for puzzle: {}", result);
+    let (best_distance_in_km, best_points) = run(&puzzle_input, 2503);
+    println!("Best distance for puzzle: {}. Best points for puzzle: {}", best_distance_in_km, best_points);
 }
 
 fn load_puzzle_input(path: &str) -> Vec<Reindeer> {
@@ -71,7 +77,7 @@ fn load_puzzle_input(path: &str) -> Vec<Reindeer> {
         }).collect()
 }
 
-fn run(puzzle_input: &Vec<Reindeer>, duration_in_seconds: i64) -> i64 {
+fn run(puzzle_input: &Vec<Reindeer>, duration_in_seconds: i64) -> (i64, i64) {
     let mut reindeer_states: Vec<ReindeerState> = puzzle_input
         .iter()
         .map(|reindeer| ReindeerState::new(*reindeer))
@@ -79,7 +85,30 @@ fn run(puzzle_input: &Vec<Reindeer>, duration_in_seconds: i64) -> i64 {
 
     for _ in 0..duration_in_seconds {
         reindeer_states.iter_mut().for_each(|reindeer_state| reindeer_state.tick());
+
+        let best_current_distance_in_km = reindeer_states
+            .iter()
+            .map(|reindeer_state| reindeer_state.distance_in_km)
+            .max()
+            .unwrap();
+
+        reindeer_states
+            .iter_mut()
+            .filter(|reindeer_state| reindeer_state.distance_in_km == best_current_distance_in_km)
+            .for_each(|reindeer_state| reindeer_state.score());
     }
 
-    reindeer_states.iter().map(|reindeer_state| reindeer_state.distance_in_km).max().unwrap()
+    let best_distance_in_km = reindeer_states
+        .iter()
+        .map(|reindeer_state| reindeer_state.distance_in_km)
+        .max()
+        .unwrap();
+
+    let best_points = reindeer_states
+        .iter()
+        .map(|reindeer_state| reindeer_state.points)
+        .max()
+        .unwrap();
+
+    (best_distance_in_km, best_points)
 }
