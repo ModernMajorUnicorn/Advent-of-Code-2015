@@ -8,13 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e4d5201-1902-4064-8312-6381613cf872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-16-aunt-sue/day-16-aunt-sue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-16-aunt-sue/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

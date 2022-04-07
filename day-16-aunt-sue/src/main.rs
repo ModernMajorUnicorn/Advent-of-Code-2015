@@ -1,7 +1,10 @@
+use std::cmp::Ordering;
 use std::fs::File;
 use std::io;
 use std::io::BufRead;
 use itertools::{Itertools};
+use compare::{Compare, natural};
+use std::cmp::Ordering::{Less, Equal, Greater};
 
 struct AuntSue {
     number: Option<i64>,
@@ -50,44 +53,71 @@ impl AuntSue {
         }
     }
 
-    fn compare_to(&self, other: &AuntSue) -> bool {
-        AuntSue::compare_value(self.children, other.children) &&
-            AuntSue::compare_value(self.cats, other.cats) &&
-            AuntSue::compare_value(self.samoyeds, other.samoyeds) &&
-            AuntSue::compare_value(self.pomeranians, other.pomeranians) &&
-            AuntSue::compare_value(self.akitas, other.akitas) &&
-            AuntSue::compare_value(self.vizslas, other.vizslas) &&
-            AuntSue::compare_value(self.goldfish, other.goldfish) &&
-            AuntSue::compare_value(self.trees, other.trees) &&
-            AuntSue::compare_value(self.cars, other.cars) &&
-            AuntSue::compare_value(self.perfumes, other.perfumes)
+    fn compare_to_part_1(&self, other: &AuntSue) -> bool {
+        AuntSue::compare_value_part_1(self.children, other.children) &&
+            AuntSue::compare_value_part_1(self.cats, other.cats) &&
+            AuntSue::compare_value_part_1(self.samoyeds, other.samoyeds) &&
+            AuntSue::compare_value_part_1(self.pomeranians, other.pomeranians) &&
+            AuntSue::compare_value_part_1(self.akitas, other.akitas) &&
+            AuntSue::compare_value_part_1(self.vizslas, other.vizslas) &&
+            AuntSue::compare_value_part_1(self.goldfish, other.goldfish) &&
+            AuntSue::compare_value_part_1(self.trees, other.trees) &&
+            AuntSue::compare_value_part_1(self.cars, other.cars) &&
+            AuntSue::compare_value_part_1(self.perfumes, other.perfumes)
     }
 
-    fn compare_value(x: Option<i64>, y: Option<i64>) -> bool {
+    fn compare_value_part_1(x: Option<i64>, y: Option<i64>) -> bool {
         match (x, y) {
             (Some(x), Some(y)) => x == y,
+            _ => true
+        }
+    }
+
+    fn compare_to_part_2(&self, other: &AuntSue) -> bool {
+        AuntSue::compare_value_part_2(self.children, other.children, Equal) &&
+            AuntSue::compare_value_part_2(self.cats, other.cats, Less) &&
+            AuntSue::compare_value_part_2(self.samoyeds, other.samoyeds, Equal) &&
+            AuntSue::compare_value_part_2(self.pomeranians, other.pomeranians, Greater) &&
+            AuntSue::compare_value_part_2(self.akitas, other.akitas, Equal) &&
+            AuntSue::compare_value_part_2(self.vizslas, other.vizslas, Equal) &&
+            AuntSue::compare_value_part_2(self.goldfish, other.goldfish, Greater) &&
+            AuntSue::compare_value_part_2(self.trees, other.trees, Less) &&
+            AuntSue::compare_value_part_2(self.cars, other.cars, Equal) &&
+            AuntSue::compare_value_part_2(self.perfumes, other.perfumes, Equal)
+    }
+
+    fn compare_value_part_2(x: Option<i64>, y: Option<i64>, expected_ordering: Ordering) -> bool {
+        let cmp = natural();
+
+        match (x, y) {
+            (Some(x), Some(y)) => cmp.compare(&x, &y) == expected_ordering,
             _ => true
         }
     }
 }
 
 fn main() {
-    let result = run_part_1();
-    println!("Part 1 result: {}", result);
-}
-
-fn run_part_1() -> i64 {
     let ticker_tape = AuntSue::get_ticker_tape();
     let puzzle_input = load_puzzle_input();
 
-    let found_aunt = puzzle_input
+    let found_aunt_part_1 = puzzle_input
         .iter()
-        .filter(|aunt_sue| ticker_tape.compare_to(aunt_sue))
+        .filter(|aunt_sue| ticker_tape.compare_to_part_1(aunt_sue))
         .at_most_one();
 
-    match found_aunt {
-        Ok(Some(aunt_sue)) => aunt_sue.number.unwrap(),
-        _ => panic!("No definitive match found!"),
+    let found_aunt_part_2 = puzzle_input
+        .iter()
+        .filter(|aunt_sue| ticker_tape.compare_to_part_2(aunt_sue))
+        .at_most_one();
+
+    match found_aunt_part_1 {
+        Ok(Some(aunt_sue)) => println!("Part 1: {}", aunt_sue.number.unwrap()),
+        _ => println!("Part 1: No definitive match found"),
+    }
+
+    match found_aunt_part_2 {
+        Ok(Some(aunt_sue)) => println!("Part 2: {}", aunt_sue.number.unwrap()),
+        _ => println!("Part 2: No definitive match found"),
     }
 }
 
