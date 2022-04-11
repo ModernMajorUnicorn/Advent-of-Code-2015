@@ -7,11 +7,15 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="922a95dd-2d4c-44e6-9f3a-e6433aa6ffbc" name="Changes" comment="">
+    <list default="true" id="922a95dd-2d4c-44e6-9f3a-e6433aa6ffbc" name="Changes" comment="Day 16 Complete">
+      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/day-17-no-such-thing-as-too-much.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/test_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-15-science-for-hungry-people/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-15-science-for-hungry-people/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,7 @@
   <component name="RustProjectSettings">
     <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1649317388030</updated>
     </task>
+    <task id="LOCAL-00001" summary="Day 16 Complete">
+      <created>1649331996260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649331996260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Day 16 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 16 Complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,13 +7,14 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e4d5201-1902-4064-8312-6381613cf872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/day-17-no-such-thing-as-too-much.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="19f9e7b9-59c6-4f23-8a37-dddd1ec8d52e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-17-no-such-thing-as-too-much.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-15-science-for-hungry-people/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-15-science-for-hungry-people/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,21 +26,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="5aramjkg" />
+    <option name="directoryName" value="n48wd9fc" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27Qe6hnwqZxmHMRME0CNPSRWcHW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="27TOaF2P05rwcR4r5FtXLUTkwme" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -48,7 +46,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package day-15-science-for-hungry-people --bin day-15-science-for-hungry-people" />
+      <option name="command" value="run --package day-17-no-such-thing-as-too-much --bin day-17-no-such-thing-as-too-much" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -72,11 +70,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3e4d5201-1902-4064-8312-6381613cf872" name="Changes" comment="" />
-      <created>1649256563523</created>
+      <changelist id="19f9e7b9-59c6-4f23-8a37-dddd1ec8d52e" name="Changes" comment="" />
+      <created>1649340670804</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649256563523</updated>
+      <updated>1649340670804</updated>
     </task>
     <servers />
   </component>
@@ -90,9 +88,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
