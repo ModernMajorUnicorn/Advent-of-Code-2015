@@ -7,15 +7,15 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b36c4d8f-754c-4e87-8049-be708ad9bcfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-18-like-a-gif-for-your-yard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_input.txt" afterDir="false" />
+    <list default="true" id="b36c4d8f-754c-4e87-8049-be708ad9bcfa" name="Changes" comment="Day 18 Done">
+      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/day-19-medicine-for-rudolph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/test_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1649939459719</updated>
     </task>
+    <task id="LOCAL-00001" summary="Day 18 Done">
+      <created>1649947543661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649947543661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +97,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 18 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 18 Done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
