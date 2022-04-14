@@ -7,7 +7,16 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19f9e7b9-59c6-4f23-8a37-dddd1ec8d52e" name="Changes" comment="Day 17 Complete" />
+    <list default="true" id="b36c4d8f-754c-4e87-8049-be708ad9bcfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-18-like-a-gif-for-your-yard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-17-no-such-thing-as-too-much/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +26,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="n48wd9fc" />
+    <option name="directoryName" value="q2uke7p7" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27TOaF2P05rwcR4r5FtXLUTkwme" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="27myGRpinAmyVZstvZPrCcECTPg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +48,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package day-17-no-such-thing-as-too-much --bin day-17-no-such-thing-as-too-much" />
+      <option name="command" value="run --package day-18-like-a-gif-for-your-yard --bin day-18-like-a-gif-for-your-yard" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -56,25 +67,16 @@
   <component name="RustProjectSettings">
     <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="19f9e7b9-59c6-4f23-8a37-dddd1ec8d52e" name="Changes" comment="" />
-      <created>1649340670804</created>
+      <changelist id="b36c4d8f-754c-4e87-8049-be708ad9bcfa" name="Changes" comment="" />
+      <created>1649939459719</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649340670804</updated>
+      <updated>1649939459719</updated>
     </task>
-    <task id="LOCAL-00001" summary="Day 17 Complete">
-      <created>1649688031079</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1649688031079</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,10 +89,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day 17 Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 17 Complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
