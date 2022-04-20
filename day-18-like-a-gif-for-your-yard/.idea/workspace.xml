@@ -8,14 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b36c4d8f-754c-4e87-8049-be708ad9bcfa" name="Changes" comment="Day 18 Done">
-      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/day-19-medicine-for-rudolph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/test_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

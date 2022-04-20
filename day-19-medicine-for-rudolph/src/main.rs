@@ -5,12 +5,16 @@ use std::io::BufRead;
 
 fn main() {
     let (test_replacements, test_start) = load_puzzle_input("test_input.txt");
-    let test_result = run(test_replacements, test_start);
+    let test_result = run_part_1(&test_replacements, &test_start);
     println!("Result for Test: {}", test_result);
 
-    let (puzzle_replacements, puzzle_start) = load_puzzle_input("input.txt");
-    let puzzle_result = run(puzzle_replacements, puzzle_start);
-    println!("Result for Puzzle: {}", puzzle_result);
+    let (puzzle_replacements, medicine_molecule) = load_puzzle_input("input.txt");
+
+    let part_1_result = run_part_1(&puzzle_replacements, &medicine_molecule);
+    println!("Result for Puzzle Part 1: {}", part_1_result);
+
+    let part_2_result = run_part_2(&puzzle_replacements, &medicine_molecule);
+    println!("Result for Puzzle Part 2: {}", part_2_result);
 }
 
 fn load_puzzle_input(path: &str) -> (Vec<(String, String)>, String) {
@@ -31,7 +35,7 @@ fn load_puzzle_input(path: &str) -> (Vec<(String, String)>, String) {
     (replacements, lines.last().unwrap().to_string())
 }
 
-fn run(replacements: Vec<(String, String)>, start: String) -> usize {
+fn run_part_1(replacements: &Vec<(String, String)>, start: &String) -> usize {
     let mut variations = HashSet::new();
 
     for (source, destination) in replacements {
@@ -45,8 +49,8 @@ fn run(replacements: Vec<(String, String)>, start: String) -> usize {
     variations.len()
 }
 
-fn run_one_replacement(source: String, destination: String, start: &String) -> Vec<String> {
-    let parts: Vec<String> = start.split(&source).map(|part| part.to_string()).collect();
+fn run_one_replacement(source: &String, destination: &String, start: &String) -> Vec<String> {
+    let parts: Vec<String> = start.split(source).map(|part| part.to_string()).collect();
     let mut results: Vec<String> = Vec::new();
 
     for i in 1..parts.len() {
@@ -66,4 +70,23 @@ fn run_one_replacement(source: String, destination: String, start: &String) -> V
     }
 
     results
+}
+
+fn run_part_2(replacements: &Vec<(String, String)>, molecule: &String) -> i64 {
+    let mut flipped_replacements: Vec<(String, String)> = replacements.iter().map(|(source, destination)| (destination.to_string(), source.to_string())).collect();
+    flipped_replacements.sort_by(|(a1, b1), (a2, b2)| (a2.len() - b2.len()).cmp(&(a1.len() - b1.len())));
+
+    let mut current_variant = molecule.to_string();
+    let mut distance = 0;
+
+    while current_variant != "e" {
+        for (source, destination) in flipped_replacements.iter() {
+            if current_variant.contains(source) {
+                current_variant = current_variant.replacen(source, destination, 1);
+                distance += 1;
+            }
+        }
+    }
+
+    distance
 }
