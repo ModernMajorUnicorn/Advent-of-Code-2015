@@ -7,11 +7,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="526a6ab1-ab9a-4483-9627-5c5bdd0c407b" name="Changes" comment="Day 19 Part 1 Done">
-      <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-18-like-a-gif-for-your-yard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-18-like-a-gif-for-your-yard/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="526a6ab1-ab9a-4483-9627-5c5bdd0c407b" name="Changes" comment="Day 19 Done">
+      <change afterPath="$PROJECT_DIR$/../day-20-infinite-elves-and-infinite-houses/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-20-infinite-elves-and-infinite-houses/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-20-infinite-elves-and-infinite-houses/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-20-infinite-elves-and-infinite-houses/day-20-infinite-elves-and-infinite-houses.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649951432414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 19 Done">
+      <created>1650469382026</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650469382026</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 19 Part 1 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 19 Part 1 Done" />
+    <MESSAGE value="Day 19 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 19 Done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
