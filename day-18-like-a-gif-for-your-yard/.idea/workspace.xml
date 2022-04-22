@@ -8,9 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b36c4d8f-754c-4e87-8049-be708ad9bcfa" name="Changes" comment="Day 18 Done">
-      <change beforePath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-16-aunt-sue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19-medicine-for-rudolph/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
   <component name="RustProjectSettings">
     <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
