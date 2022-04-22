@@ -8,6 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b36c4d8f-754c-4e87-8049-be708ad9bcfa" name="Changes" comment="Day 18 Done">
+      <change afterPath="$PROJECT_DIR$/../day-23-opening-the-turing-lock/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-23-opening-the-turing-lock/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-23-opening-the-turing-lock/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-23-opening-the-turing-lock/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-23-opening-the-turing-lock/day-23-opening-the-turing-lock.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
