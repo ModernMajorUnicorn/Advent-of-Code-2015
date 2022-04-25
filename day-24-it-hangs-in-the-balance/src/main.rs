@@ -1,11 +1,13 @@
 use itertools::{Itertools};
-use std::time::Instant;
 
 const PUZZLE_INPUT: [i64; 28] = [1, 3, 5, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113];
 
 fn main() {
-    let result = run();
-    println!("Part 1 result: {}", result);
+    let part_1_result = run(3);
+    println!("Part 1 result: {}", part_1_result);
+
+    let part_2_result = run(4);
+    println!("Part 2 result: {}", part_2_result);
 }
 
 fn get_puzzle_input() -> Vec<i64> {
@@ -18,9 +20,9 @@ fn get_puzzle_input() -> Vec<i64> {
     result
 }
 
-fn run() -> i64 {
+fn run(required_groups: i64) -> i64 {
     let packages = get_puzzle_input();
-    let target_weight = packages.iter().sum::<i64>() / 3;
+    let target_weight = packages.iter().sum::<i64>() / required_groups;
     let mut minimum_quantum_entanglement: Option<i64> = None;
     let mut previous_group_size = usize::MAX;
 
@@ -39,13 +41,11 @@ fn run() -> i64 {
 
                 match minimum_quantum_entanglement {
                     Some(x) =>
-                        if quantum_entanglement < x && run_rec(sub(&packages, &group), target_weight, 2) {
+                        if quantum_entanglement < x && run_rec(sub(&packages, &group), target_weight, required_groups - 1) {
                             minimum_quantum_entanglement = Some(quantum_entanglement);
-                            //println!("{}", quantum_entanglement);
                         }
-                    None => if run_rec(sub(&packages, &group), target_weight, 2) {
+                    None => if run_rec(sub(&packages, &group), target_weight, required_groups - 1) {
                         minimum_quantum_entanglement = Some(quantum_entanglement);
-                        //println!("{}", quantum_entanglement);
                     }
                 }
 
@@ -66,12 +66,10 @@ fn run_rec(packages: Vec<i64>, target_weight: i64, required_groups: i64) -> bool
         for group_reference in packages.iter().combinations(k) {
             let group = group_reference.iter().map(|x| **x).collect_vec();
 
-            //println!("{} - {:?}", required_groups, group);
             if group.iter().sum::<i64>() == target_weight {
                 let sub_packages = sub(&packages, &group);
 
                 if run_rec(sub_packages, target_weight, required_groups - 1) {
-                    //println!("Found");
                     return true;
                 }
             }
@@ -79,7 +77,6 @@ fn run_rec(packages: Vec<i64>, target_weight: i64, required_groups: i64) -> bool
     }
 
 
-    //println!("Rejected");
     return false;
 }
 
